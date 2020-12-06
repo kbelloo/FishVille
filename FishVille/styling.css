@@ -1,0 +1,658 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+    line-height: 1.6;
+
+}
+
+button {
+
+    font-family: 'ubuntu', sans-serif;
+}
+
+section {
+
+    padding: 5em 0;
+}
+
+
+/* ==============
+   TYpography
+================*/
+
+h1 {
+
+    font-family: 'Lobster', serif;
+    font-weight: 400;
+    color: #b1accd;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+
+
+/* ==============
+   navigation
+================*/
+
+.logo {
+
+    height: 20px;
+}
+
+.navbar-custom {
+
+    background: rgb(0, 0, 0);
+
+}
+
+
+.navbar-custom .collapse .navbar-nav .nav-item a {
+    color: #ffffff;
+
+}
+
+.navbar-custom .collapse .navbar-nav li {
+
+    color: #ffffff;
+    font-size: 17px;
+    margin-right: 15px;
+    padding: 10px 0px;
+
+}
+
+.navbar-custom .collapse .navbar-nav li:hover,
+.navbar-custom .collapse .navbar-nav li:focus {
+    color: #ffffff;
+    border-bottom: 2px solid #089caa;
+    padding-bottom: 8px;
+
+}
+
+
+.navbar-custom .navbar-toggler {
+    border-color: #ffffff;
+}
+
+/* =========
+    About
+============*/
+
+.main {
+
+    background: #000;
+}
+
+.about {
+
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+
+}
+
+.introduction {
+
+    flex: 1;
+}
+
+/*
+.intro-text {
+    
+    margin-right: 8px;
+}
+*/
+
+.intro-text h2 {
+
+    font-size: 50px;
+    font-weight: 500;
+    color: #e6df1e;
+    /*     color:  #1a8d0b;*/
+}
+
+.intro-text p {
+
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+    text-align: justify;
+/*    margin-right: 50px;*/
+}
+
+.onc {
+
+    padding: 50px 0 0 0;
+    margin-top: 20px;
+
+}
+
+.order-now {
+
+    border: 2px solid #e6df1e;
+    background: transparent;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 30px;
+
+}
+
+.cont {
+
+    background: #e6df1e;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+
+
+}
+
+
+
+/* =========
+    slideshow
+============*/
+
+#organisation {
+
+    padding-top: 0px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+
+#myCarousel {
+
+    width: 100%;
+    /*    margin: 0 auto;*/
+
+}
+
+.carousel-inner .carousel-item .fishimage {
+
+    height: 100%;
+    max-width: 100%;
+
+}
+
+/* ==============
+    Products
+================*/
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 65em;
+    margin: 0 auto;
+}
+
+.btn {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5em 1.25em;
+    background: #fff;
+    border-radius: .25em;
+    transition:
+        transform 250ms ease-in-out,
+        opacity 250ms linear;
+
+}
+
+.btn:hover,
+btn:focus {
+
+    transform: scale(1.1);
+    opacity: .9;
+
+}
+
+.section-title {
+
+    text-align: center;
+    font-family: 'Ubuntu', serif;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #fff;
+
+}
+
+.our-products {
+
+    background-color: black;
+}
+
+.product {
+
+    /*    background: #94c990;*/
+    border: 4px solid #e6df1e;
+    padding: 3em;
+    border-radius: 1em;
+    margin-bottom: 3em;
+    text-align: center;
+
+
+}
+
+.product_title {
+
+    font-size: 2em;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.product_image1 {
+
+    margin: -5em 0 0 0;
+    /*    height: 190px;*/
+}
+
+.product_image2 {
+
+    margin: -5em 0 0 0;
+    /*    height: 300px;*/
+}
+
+.product_image2 {
+
+    margin: -5em 0 0 0;
+    height: 300px;
+}
+
+
+/* ==============
+   Order section
+================*/
+
+.pickup {
+
+    background: #000;
+}
+
+.section-title2 {
+    
+    text-align: center;
+    font-family: 'Ubuntu', serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.section-subtitle {
+
+    text-align: center;
+    font-family: 'Ubuntu', serif;
+    color: #e6df1e;
+    margin-bottom: 50px;
+}
+
+.pr-form {
+    
+    display: flex;
+    width: 90%;
+    margin: auto;
+/*    min-height: 80vh;*/
+/*    align-items: center;*/
+    justify-content: space-around;
+    
+}
+
+.price {
+    
+    background: #e6df1e;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    
+
+    
+}
+
+.price p {
+    
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price li {
+    
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.price-list {
+    
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+.ordform-head {
+    
+    font-size: 35px;
+    font-weight: 700;
+    color: #e6df1e;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.form {
+    
+    padding: 20px;
+    color: #fff;
+   
+}
+
+input[type=text], select {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+ .submit-btn {
+  width: 30%; 
+  background-color: #e6df1e;
+  color: #000;
+  padding: 6px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  right: 10px;
+}
+
+.submit-btn:hover {
+    
+  background-color: #808080;
+  color: #000;
+    
+}
+
+
+/* ==============
+   Contact Section
+================*/
+
+#contact {
+
+    padding-top: 100px;
+    box-sizing: border-box;
+    /*    margin: 0;*/
+    position: relative;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+
+}
+
+#contact .content {
+
+    max-width: 800px;
+    text-align: center;
+
+}
+
+#contact .content h2 {
+
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.container1 {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container1 .contactInfo {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 .contactInfo .box {
+
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container1 .contactInfo .box .icon {
+
+    min-width: 60px;
+    height: 40px;
+    /*    background: #fff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.container1 .contactInfo .box .text {
+
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container1 .contactInfo .box .text h3 {
+
+    font-weight: 500;
+    color: #e6df1e;
+
+}
+
+.contactForm {
+
+    width: 40%;
+    padding: 40px;
+    color: black;
+    background: #fff;
+}
+
+.contactForm h2 {
+
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+
+.contactForm .inputBox input:focus ~ span, .contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span, .contactForm .inputBox textarea:valid ~ span{
+   
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    
+    width: 100px;
+    background: #e6df1e;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+ 
+}
+
+/* ==============
+   Footer Section
+================*/
+
+ footer                 {
+    
+    background-color: #808080;
+    color: #fff;
+    padding: 10px 0;
+/*    margin-top: 150px;*/
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* ==============
+   Media Queries
+================*/
+
+@media screen and (max-width: 1024px) {
+
+    .about {
+
+        flex-direction: column;
+    }
+
+    .introduction {
+
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    #organisation {
+
+        justify-content: center;
+    }
+
+    .intro-text h2 {
+        font-size: 40px;
+        /*        margin-top: 40px;*/
+    }
+
+    .intro-text p {
+
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .onc {
+
+        padding: 10px 0 0 0;
+    }
+
+    .carousel-inner .carousel-item .fishimage {
+
+        height: 90%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 45em) {
+
+    .product_image1 {
+
+        float: right;
+        width 65%;
+        height: 290px;
+
+    }
+
+    .product_image2 {
+
+        float: right;
+        width 65%;
+        /*        height: 200px;*/
+
+    }
+
+    .product_image3 {
+
+        float: right;
+        width 65%;
+        height: 180px;
+        /*        position: relative;*/
+        /*        top: -9px;*/
+
+    }
+
+    .product {
+
+        text-align: left;
+    }
+}
