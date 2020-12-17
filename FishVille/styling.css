@@ -400,7 +400,7 @@ input[type=text], select {
     outline: none;
 }
 
- .submit-btn {
+ .order-button a {
   width: 30%; 
   background-color: #e6df1e;
   color: #000;
@@ -411,13 +411,19 @@ input[type=text], select {
   cursor: pointer;
   position: relative;
   right: 10px;
+  text-decoration: none;
 }
 
-.submit-btn:hover {
+.order-button a:hover {
     
   background-color: #808080;
   color: #000;
     
+}
+
+#myPopover {
+    
+    background: #e6df1e;
 }
 
 
@@ -735,15 +741,38 @@ details summary {
     transform: translateY(-20px);
 }
 
-.contactForm .inputBox input[type="submit"] {
+.contactForm .inputBox a {
     
-    width: 100px;
+    padding: 10px 25px;
+    border: 5px;
     background: #e6df1e;
     color: #000;
     cursor: pointer;
     font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.popover {
     
- 
+    border: 2px solid #d1cc93;
+}
+
+.arrow {
+    
+    border-right-color: #f1d712;
+}
+
+.popover-title {
+    
+    background: #000;
+    color: #fff;
+}
+
+.popover-content {
+    
+    padding: 25px;
+    
 }
 
 /* ==============
