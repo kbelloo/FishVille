@@ -333,6 +333,7 @@ btn:focus {
     width: 30%;
     text-align: center;
     padding: 10px;
+    border-radius: 14px;
     
 
     
@@ -376,6 +377,17 @@ btn:focus {
    
 }
 
+.form-width {
+    
+    width: 700px;
+}
+
+
+.order-button {
+    
+    text-align: center;
+}
+
 input[type=text], select {
     
     width: 100%;
@@ -409,13 +421,183 @@ input[type=text], select {
 }
 
 
+
+/* ==============
+   Review section
+================*/
+
+.customer-review {
+    
+    background: #000;
+}
+
+.rev-section {
+    
+    margin: auto;
+    padding: 0 1rem;
+/*    max-width: 1100px;*/
+    width: 90%;
+    text-align: center;
+    font-family: 'Ubuntu', serif;
+}
+
+.rev-title {
+    
+    font-size: 2.5rem;
+/*    text-transform: uppercase;*/
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.reviews {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review {
+    
+    margin: 0 15px;;
+    min-width: 300px;
+    flex: 1;
+}
+
+.head-review {
+    
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+
+.head-review img {
+    
+    width: 70%;
+    margin: 0 auto;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px  15px #e7e09c;
+}
+
+.body-review {
+    
+    background-color: #d8d3ba;
+    padding: 2.5rem;
+    box-shadow: 2px 2px 5px 3px rgb(225, 225, 225);
+    border-radius: 5px;
+}
+
+.name-review {
+    
+    font-size: 1.5rem;
+    color: rgb(50, 50, 50);
+    margin-bottom: .25rem;
+    font-weight: bold;
+}
+
+.place-review {
+    
+    color: red;
+    font-style: italic;
+}
+
+.desc-review {
+    
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+
+}
+
+/* ==============
+   FAQ Section
+================*/
+
+.faq {
+    
+    background: #000;
+    
+}
+
+.faq-sec {
+    
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+ 
+}
+
+.faq-section {
+    
+    width: 700px;
+    background: #e6df1e;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px #c8c097;
+/*    margin-right: 20px;*/
+}
+
+.faq-header {
+    
+    background: #000;
+    color: #fff;
+    border-radius: 7px 7px 0px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.faqs {
+    
+    padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker {
+    
+    float: right;
+    margin-top: 3px;
+    
+}
+
+details {
+    
+/*    background: #f6f6f6;*/
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+details summary {
+    
+    outline: none;
+}
+
+.faq-text {
+    
+    background: #dedbd3;
+    padding: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    
+}
+
+
+
 /* ==============
    Contact Section
 ================*/
 
 #contact {
 
-    padding-top: 100px;
+    padding: 30px 0;
+/*    margin-bottom: 20px;*/
     box-sizing: border-box;
     /*    margin: 0;*/
     position: relative;
@@ -436,25 +618,25 @@ input[type=text], select {
 
 }
 
-#contact .content h2 {
+#contact .content h3 {
 
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 44px;
+    font-weight: bold;
 
 }
 
 .container1 {
 
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 30px;
 }
 
 .container1 .contactInfo {
 
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -498,7 +680,7 @@ input[type=text], select {
 
 .contactForm {
 
-    width: 40%;
+    width: 100%;
     padding: 40px;
     color: black;
     background: #fff;
@@ -560,6 +742,7 @@ input[type=text], select {
     color: #000;
     cursor: pointer;
     font-size: 18px;
+    
  
 }
 
@@ -588,11 +771,59 @@ input[type=text], select {
 
         flex-direction: column;
     }
+    
+    .pr-form {
+        
+        flex-direction: column;
+    }
+    
+    .price {
+        
+        width: auto;
+    }
+    
+   .form-width {
+    
+    width: auto;
+       
+    }
+    
+    .order-button {
+    
+    text-align: center;
+    }
+    
+    .submit-btn {
+        
+        padding-right: 75px;
+    }
+    
 
     .introduction {
 
         margin-top: 5vh;
         text-align: center;
+    }
+    
+/*    review section*/
+    
+    .reviews {
+        
+        margin: 0 auto;
+        justify-content: center
+    }
+    
+/*contact section*/
+    
+    .container1 {
+        
+        flex-direction: column;
+    }
+    
+    .contactInfo {
+        
+        justify-content: center;
+        margin: 0 auto;
     }
 
     #organisation {
@@ -614,11 +845,17 @@ input[type=text], select {
     .onc {
 
         padding: 10px 0 0 0;
+        
+    }
+    
+    .order-now {
+        
+        margin: 20px;
     }
 
     .carousel-inner .carousel-item .fishimage {
 
-        height: 90%;
+        width: 100%;
         margin-top: 30px;
     }
 }
@@ -655,4 +892,22 @@ input[type=text], select {
 
         text-align: left;
     }
+    
+    
 }
+
+@media (max-width: 678px) {
+    
+    .review {
+        
+        margin-top: 2.5rem;
+        width: 100%;
+        
+    }
+    
+   
+}
+
+
+
+    

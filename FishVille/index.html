@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Lora&family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
     <title>Fish Ville</title>
 
 </head>
@@ -266,47 +269,52 @@
 
                             <h4 class="ordform-head">Place your Order</h4>
 
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <div class="form-width">
+
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                                <br>
+
+                                <label for="phone">Phone No.</label>
+                                <input type="text" id="phone" name="phone" placeholder="Phone No.">
+
+                                <br>
+
+                                <label for="location">Location</label>
+                                <input type="text" id="location" name="location" placeholder="Pickup Location">
+
+                                <br>
+
+
+                                <label for="product">Product</label>
+                                <select id="product" name="product">
+
+                                    <option value="smoked-big">Smoked Catfish(big)</option>
+                                    <option value="smoked-small">Smoked Catfish(small)</option>
+                                    <option value="smoked-medium">Smoked Catfish(medium)</option>
+
+                                    <option value="frozen-big">Frozen Catfish(big)</option>
+                                    <option value="frozen-small">Frozen Catfish(small)</option>
+                                    <option value="frozen-medium">Frozen Catfish(medium)</option>
+
+                                    <option value="live-big">Live Catfish(big)</option>
+                                    <option value="live-small">Live Catfish(small)</option>
+                                    <option value="live-medium">Live Catfish(medium)</option>
+
+                                </select>
+
+                                <br>
+
+                                <label for="quantity">Quantity</label>
+                                <input type="text" id="quantity" name="quantity" placeholder="Quantity">
+
+
+                            </div>
 
                             <br>
 
-                            <label for="phone">Phone No.</label>
-                            <input type="text" id="phone" name="phone" placeholder="Phone No.">
-
-                            <br>
-
-                            <label for="location">Location</label>
-                            <input type="text" id="location" name="location" placeholder="Pickup Location">
-
-                            <br>
-
-
-                            <label for="product">Product</label>
-                            <select id="product" name="product">
-
-                                <option value="smoked-big">Smoked Catfish(big)</option>
-                                <option value="smoked-small">Smoked Catfish(small)</option>
-                                <option value="smoked-medium">Smoked Catfish(medium)</option>
-
-                                <option value="frozen-big">Frozen Catfish(big)</option>
-                                <option value="frozen-small">Frozen Catfish(small)</option>
-                                <option value="frozen-medium">Frozen Catfish(medium)</option>
-
-                                <option value="live-big">Live Catfish(big)</option>
-                                <option value="live-small">Live Catfish(small)</option>
-                                <option value="live-medium">Live Catfish(medium)</option>
-
-                            </select>
-
-                            <br>
-
-                            <label for="quantity">Quantity</label>
-                            <input type="text" id="quantity" name="quantity" placeholder="Quantity">
-
-                            <br>
-
-                            <button class="submit-btn">Submit</button>
+                            <div class="order-button"><button class="submit-btn">Submit</button></div>
 
                         </div>
 
@@ -319,13 +327,106 @@
 
         </section> <!--        end of order section-->
 
+        <!--        Review section-->
+
+        <section class="customer-review">
+            <div class="rev-section">
+
+                <h3 class="rev-title">Customer Review</h3>
+
+                <div class="reviews">
+
+                    <div class="review">
+                        <div class="head-review">
+                            <img src="images/3.jpg" alt="">
+                        </div>
+
+                        <div class="body-review">
+                            <div class="name-review">Adeosun O.</div>
+                            <div class="place-review">Oyo State</div>
+                            <div class="desc-review">The customer service is great. I was kept informed about my order till delivery</div>
+                        </div>
+
+                    </div>
+
+                    <div class="review">
+                        <div class="head-review">
+                            <img src="images/9.jpg" alt="">
+                        </div>
+
+                        <div class="body-review">
+                            <div class="name-review">Bello K.</div>
+                            <div class="place-review">Lagos State</div>
+                            <div class="desc-review">The taste is so nice. OMG! So juicy, would definitely recommend</div>
+                        </div>
+
+                    </div>
+
+                    <div class="review">
+                        <div class="head-review">
+                            <img src="images/9.jpg" alt="">
+                        </div>
+
+                        <div class="body-review">
+                            <div class="name-review">David S.</div>
+                            <div class="place-review">Edo State</div>
+                            <div class="desc-review">Some of the largest catfish I have seen in Ibadan. Real Eja Nla, D'banj watch out.</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!--end of review section-->
+
+        </section>
+
+
+
+        <!--        FAQ -->
+
+        <section class="faq">
+
+            <div class="faq-sec">
+
+                <div class="faq-section">
+                    <h3 class="faq-header">FAQs</h3>
+
+                    <div class="faqs">
+                        <details>
+                            <summary class="faq-title">How quickly are orders processed?</summary>
+                            <p class="faq-text">Orders are worked on as soon as they are received by our large and committed staff. NOTE: Larger orders require more time to be worked on and delivered</p>
+                        </details>
+
+                        <details>
+                            <summary class="faq-title">Are your fish organic and really safe to eat</summary>
+                            <p class="faq-text">We take great care to ensure that our feeding formula is made from the best and freshest of ingredients to give us the best of size and taste</p>
+                        </details>
+
+                        <details>
+                            <summary class="faq-title">How are you able to keep up with your regular large orders?</summary>
+                            <p class="faq-text">Our large and numerous ponds supported by our hardworking staff allows us to grow fish throughout the year to keep up with the demand</p>
+                        </details>
+
+                    </div>
+
+                </div>
+
+            </div> <!--       end of faq -->
+
+        </section>
+
+
+
         <!--        contact section-->
 
         <div id="contact">
 
             <div class="content">
 
-                <h2>Contact</h2>
+                <h3>Contact</h3>
 
             </div>
 
