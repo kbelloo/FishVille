@@ -436,10 +436,50 @@ input[type=text], select {
     
 }
 
-#myPopover {
+#modal {
     
-    background: #e6df1e;
+    background: #d2d4c8;
+    color: #000;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 0;
+    height: 200px;
+    max-width: 600px;
+    border-radius: 10px;
+    
 }
+
+#modal-text {
+    
+    text-align: center;
+}
+
+#modal p {
+    
+    text-align: center;
+}
+
+#close-modal {
+    
+    padding: 8px 25px;
+    background: #e6df1e;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 40%;
+    
+}
+
+#close-modal:hover, #close-modal :focus {
+    
+    background-color: #808080;
+  color: #000;
+    
+}
+
 
 
 
